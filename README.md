@@ -3,7 +3,7 @@
 - 提供的配置按照与 [AiNiee](https://github.com/NEKOparapa/AiNiee) 翻译器搭配使用设计，其他用途是否合适请自行判断
 
 ## 要求
-- 至少 8G 显存 Nvidia 独立显卡
+- 至少 8G 显存的 Nvidia 独立显卡
 - 确保安装了最新版本的显卡驱动程序
 
 ## 步骤
@@ -12,7 +12,7 @@
 
 | 显存大小         | 模型规模     | 下载链接                                                  |
 |:---------------:|:-----------:|:---------------------------------------------------------:|
-| 8G              | 7B          | [Galtransl-7B-v2-IQ4_XS.gguf](https://huggingface.co/SakuraLLM/GalTransl-7B-v2/blob/main/Galtransl-7B-v2-IQ4_XS.gguf) |
+| 8G              | 7B          | [GalTransl-7B-v2.6-IQ4_XS.gguf](https://huggingface.co/SakuraLLM/GalTransl-7B-v2.6/blob/main/GalTransl-7B-v2.6-IQ4_XS.gguf)|
 | 8G              | 14B         | [sakura0.92_1.11_IQ3XSS.gguf](https://huggingface.co/shing3232/sakura-14b-qwen2beta-v0.9.2-IMX/blob/main/sakura0.92_1.11_IQ3XSS.gguf) |
 | 10G             | 14B         | [sakura0.92_1.11_IQ3XSS.gguf](https://huggingface.co/shing3232/sakura-14b-qwen2beta-v0.9.2-IMX/blob/main/sakura0.92_1.11_IQ3XSS.gguf) |
 | 11G/12G/16G/24G | 14B         | [sakura-14b-qwen2beta-v0.9.2-iq4xs.gguf](https://huggingface.co/SakuraLLM/Sakura-14B-Qwen2beta-v0.9.2-GGUF/blob/main/sakura-14b-qwen2beta-v0.9.2-iq4xs.gguf) |
