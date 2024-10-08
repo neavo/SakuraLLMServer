@@ -37,7 +37,7 @@
 
 ## 设置 AiNiee 
 - 本节为搭配 [AiNiee](https://github.com/NEKOparapa/AiNiee) 翻译器使用时的设置教程，使用其他翻译器时可以跳过
-- 确保安装了 `最新版本` 的 [AiNiee](https://github.com/NEKOparapa/AiNiee)，版本号 `AiNiee测试版`
+- 确保安装了 `最新版本（>= 4.75）` 的 [AiNiee](https://github.com/NEKOparapa/AiNiee) 应用
 - 启动 [AiNiee](https://github.com/NEKOparapa/AiNiee) 应用，并根据 `显存大小` 设置以下选项：
   
 | 选项 | 设置 |
@@ -58,6 +58,7 @@
 
 ## 常见问题
 - 如何判断是否 `爆显存`
+  - 爆显存会导致翻译速度和翻译结果异常，应该尽量避免发生
   - 如果爆的比较厉害，程序会直接报错或者退出
   - 爆了一点又没有完全爆比较难判断
   - 一个可参考的方式是通过第三方软件监测显卡功耗
