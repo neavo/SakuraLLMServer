@@ -37,7 +37,7 @@
 
 ## 设置 AiNiee 
 - 本节为搭配 [AiNiee](https://github.com/NEKOparapa/AiNiee) 翻译器使用时的设置教程，使用其他翻译器时可以跳过
-- 确保安装了 `最新版本（>= 4.75）` 的 [AiNiee](https://github.com/NEKOparapa/AiNiee) 应用
+- 确保安装了 `最新测试版本（版本号 >= 4.75）` 的 [AiNiee](https://github.com/NEKOparapa/AiNiee) 应用
 - 启动应用，并根据 `显存大小` 设置以下选项：
   
 | 选项 | 设置 |
