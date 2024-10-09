@@ -14,7 +14,7 @@
 | 显存大小         | 模型规模     | 下载链接                                                  |
 |:---------------:|:-----------:|:---------------------------------------------------------:|
 | 8G/10G          | 7B          | [GalTransl-7B-v2.6-IQ4_XS.gguf](https://huggingface.co/SakuraLLM/GalTransl-7B-v2.6/blob/main/GalTransl-7B-v2.6-IQ4_XS.gguf)|
-| 11G/12G/16G/24G | 14B         | [Sakura-14B-Qwen2.5-v1.0pre1-GGUF](https://huggingface.co/SakuraLLM/Sakura-14B-Qwen2.5-v1.0pre1-GGUF/blob/main/sakura-14b-qwen2.5-v1.0-iq4xs.gguf) |
+| 11G/12G/16G/24G | 14B         | [Sakura-14B-Qwen2.5-v1.0-GGUF](https://huggingface.co/SakuraLLM/Sakura-14B-Qwen2.5-v1.0pre1-GGUF/blob/main/sakura-14b-qwen2.5-v1.0-iq4xs.gguf) |
 
 ## 启动
 - 现在你的文件结构应该类似于：
