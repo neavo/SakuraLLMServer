@@ -14,7 +14,8 @@
 | 显存大小         | 模型规模     | 下载链接                                                  |
 |:---------------:|:-----------:|:---------------------------------------------------------:|
 | 8G/10G          | 7B          | [GalTransl-7B-v2.6-IQ4_XS.gguf](https://huggingface.co/SakuraLLM/GalTransl-7B-v2.6/blob/main/GalTransl-7B-v2.6-IQ4_XS.gguf)|
-| 11G/12G/16G/24G | 14B         | [sakura-14b-qwen2.5-v1.0-iq4xs.gguf](https://huggingface.co/SakuraLLM/Sakura-14B-Qwen2.5-v1.0-GGUF/blob/main/sakura-14b-qwen2.5-v1.0-iq4xs.gguf) |
+| 11G/12G/16G     | 14B         | [sakura-14b-qwen2.5-v1.0-iq4xs.gguf](https://huggingface.co/SakuraLLM/Sakura-14B-Qwen2.5-v1.0-GGUF/blob/main/sakura-14b-qwen2.5-v1.0-iq4xs.gguf) |
+| 24G             | 14B         | [sakura-14b-qwen2.5-v1.0-q6k.gguf](https://huggingface.co/SakuraLLM/Sakura-14B-Qwen2.5-v1.0-GGUF/blob/main/sakura-14b-qwen2.5-v1.0-q6k.gguf) |
 
 ## 启动
 - 现在你的文件结构应该类似于：
@@ -36,7 +37,7 @@
 | 16G/24G         | 14B         | 01_1280_NP16.bat |
 
 ## 设置 AiNiee 
-- 确保安装了 `最新测试版本（版本号 >= 4.75）` 的 [AiNiee](https://github.com/NEKOparapa/AiNiee) 应用
+- 确保安装了 `最新测试版本（版本号 >= 5.0）` 的 [AiNiee](https://github.com/NEKOparapa/AiNiee) 应用
 - 启动应用，并根据 `显存大小` 设置以下选项：
   
 | 选项 | 设置 |
