@@ -1,7 +1,7 @@
 ## SakuraLLMServer
 - 运行 [SakuraLLM](https://github.com/SakuraLLM/SakuraLLM) 轻小说翻译模型的服务器端一键包
-- 可作为 [AiNiee](https://github.com/NEKOparapa/AiNiee)、[GalTransl](https://github.com/xd2333/GalTransl)、[轻小说翻译机器人](https://books.fishhawk.top/workspace/sakura) 等翻译器的服务器端使用
-- 结合本页中的设置指南，可以得到最优化的性能，相较于默认设置可提升 3-5 倍
+- 可作为 [AiNiee](https://github.com/NEKOparapa/AiNiee)、[GalTransl](https://github.com/xd2333/GalTransl)、[绿站（轻小说翻译机器人）](https://books.fishhawk.top/workspace/sakura) 等翻译器的服务器端使用
+- 配合本页中的各翻译器的设置指南，可以得到最优化的性能，相较于默认设置可提升 3-5 倍
 
 ## 要求
 - 至少 8G 显存的 Nvidia 独立显卡
@@ -13,7 +13,7 @@
 
 | 显存大小         | 模型规模     | 下载链接                                                  |
 |:---------------:|:-----------:|:---------------------------------------------------------:|
-| 8G/10G          | 7B          | [GalTransl-7B-v2.6-IQ4_XS.gguf](https://huggingface.co/SakuraLLM/GalTransl-7B-v2.6/blob/main/GalTransl-7B-v2.6-IQ4_XS.gguf)|
+| 8G/10G          | 7B          | [sakura-7b-qwen2.5-v1.0-iq4xs.gguf](https://huggingface.co/SakuraLLM/Sakura-7B-Qwen2.5-v1.0-GGUF/blob/main/sakura-7b-qwen2.5-v1.0-iq4xs.gguf) |
 | 11G/12G/16G     | 14B         | [sakura-14b-qwen2.5-v1.0-iq4xs.gguf](https://huggingface.co/SakuraLLM/Sakura-14B-Qwen2.5-v1.0-GGUF/blob/main/sakura-14b-qwen2.5-v1.0-iq4xs.gguf) |
 | 24G             | 14B         | [sakura-14b-qwen2.5-v1.0-q6k.gguf](https://huggingface.co/SakuraLLM/Sakura-14B-Qwen2.5-v1.0-GGUF/blob/main/sakura-14b-qwen2.5-v1.0-q6k.gguf) |
 
@@ -30,8 +30,7 @@
   
 | 显存大小         | 模型规模     | 启动脚本             |
 |:---------------:|:-----------:|:--------------------:|
-| 8G              | 7B          | 01_1280_NP4_KVQ8.bat |
-| 10G             | 7B          | 01_1280_NP8_KVQ8.bat |
+| 8G/10G          | 7B          | 01_1280_NP16.bat |
 | 11G             | 14B         | 01_1280_NP4.bat |
 | 12G             | 14B         | 01_1280_NP6.bat |
 | 16G/24G         | 14B         | 01_1280_NP16.bat |
@@ -43,8 +42,7 @@
 | 选项 | 设置 |
 |------|:----:|
 | 接口管理 - SakuraLLM - 编辑接口 - 接口地址 | http://127.0.0.1:8080 |
-| 接口管理 - SakuraLLM - 编辑接口 - 模型名称（8G/10G） | Sakura-v0.9 |
-| 接口管理 - SakuraLLM - 编辑接口 - 模型名称（11G/12G/16G/24G） | Sakura-v1.0 |
+| 接口管理 - SakuraLLM - 编辑接口 - 模型名称 | Sakura-v1.0 |
 | 基础设置 - 翻译任务切分模式 | Token 模式 |
 | 基础设置 - 翻译任务的最大 Tokens 数 | 384 |
 | 基础设置 - 每个翻译任务携带的参考上文行数（翻译 `小说` 或 `GalGame` 时） | 3 |
